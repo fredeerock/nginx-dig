@@ -9,4 +9,3 @@ A simple nginx proxy docker image for serving other docker images.
 You can use this in conjunction with other docker-compose defined services. For instance the below command will run 2 docker-compose files with a common network called **thedig**. 
 
 `docker-compose -f nginx-docker-proxy/docker-compose.yml -f mediawiki-dig/docker-compose.yml -p thedig up`
-
