@@ -8,7 +8,7 @@ services:
     image: nginx
     volumes:
       - ./data/proxy/conf.d:/etc/nginx/conf.d
-      - ./data/proxy/share/don:/usr/share/nginx/don
+      - ./data/proxy/srv:/srv
       # - ./data/proxy/log:/var/log/nginx
     ports:
     - "80:80" 
